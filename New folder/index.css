@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Gruppo');
+
+body {
+    margin: 0;
+}
+
+#editor {
+    width: 80%;
+    height: 80vh;
+    margin: 20px auto 0 auto;
+}
+
+.options {
+    text-align: center;
+}
+
+.options .options_selection {
+    padding: 10px;
+    border: none;
+    margin: 25px 0 10px 0;
+    text-align: center;
+    -webkit-appearance: none;
+    font-family: 'Gruppo', cursive;
+    font-size: 1em;
+    color: #333;
+    font-weight: bolder;
+    width: 30%;
+    background-color: #f2f2f2;
+}
+
+.options .options_selection:focus {
+    outline: none;
+}
+
+select::-ms-expand {
+    display: none;
+}
+
+@media (max-width: 767px) {
+    #editor {
+        width: 90%;
+    }
+}
